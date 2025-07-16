@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function About() {
   return (
     <div className="min-h-screen bg-white">
@@ -13,9 +15,12 @@ export default function About() {
               </div>
               <span className="text-xl font-semibold text-gray-900">Snumps</span>
             </div>
-            <a href="/" className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">
+            <Link 
+              href="/"
+              className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200"
+            >
               Home
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -29,8 +34,8 @@ export default function About() {
               Snumps
             </span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We're a small team passionate about building apps that make a real difference in people's lives.
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            We&apos;re a small team with big dreams. Our mission is to create apps that don&apos;t just work well—they make life better.
           </p>
         </div>
       </section>
@@ -42,30 +47,52 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Our Story
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              We started Snumps with a simple mission: to create apps that are genuinely useful, beautifully designed, and accessible to everyone.
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Snumps started with a simple idea: what if we could build apps that people actually wanted to use?
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Small Team, Big Impact</h3>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Unlike big corporations, we're a small, agile team that can move quickly and respond to what users actually need. We don't have layers of bureaucracy or complex decision-making processes. Instead, we focus on what matters most: building apps that people love to use.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Our size is our strength. We can experiment, iterate, and improve our apps based on real user feedback without getting bogged down in corporate politics or profit-driven decisions that don't serve the user.
-              </p>
+          <div className="space-y-12">
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">The Beginning</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We noticed that many apps were &quot;feature-rich&quot; but user-poor. They had everything except what users actually needed. So we decided to flip the script.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">User-First Philosophy</h3>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Every app we build starts with a simple question: "How can we make this genuinely useful for people?" We don't build features just to check boxes or follow trends. We build solutions that solve real problems.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Our apps are designed with simplicity in mind. We believe that the best technology should feel invisible - it should just work, without requiring users to learn complex interfaces or navigate confusing menus.
-              </p>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Our Philosophy</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We believe that great apps should be simple, useful, and accessible to everyone. No complicated interfaces, no hidden costs, no unnecessary features that confuse users.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center flex-shrink-0">
+                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Today</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  We&apos;re still small, and that&apos;s exactly how we like it. Being small means we can move fast, listen to users, and build exactly what they need without the overhead of a big corporation.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -76,10 +103,10 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              What We Believe In
+              What We Believe
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our values guide everything we do, from the apps we build to how we interact with our users.
+              These aren&apos;t just words on a wall—they&apos;re the principles that guide every decision we make.
             </p>
           </div>
 
@@ -128,7 +155,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Personal Touch</h3>
               <p className="text-gray-600 leading-relaxed">
-                We're real people building for real people. No faceless corporation here.
+                We&apos;re real people building for real people. No faceless corporation here.
               </p>
             </div>
           </div>
@@ -155,7 +182,7 @@ export default function About() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Identify Real Needs</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We start by understanding what problems people actually face in their daily lives. We don't build solutions looking for problems - we find real problems and build solutions.
+                  We start by understanding what problems people actually face in their daily lives. We don&apos;t build solutions looking for problems - we find real problems and build solutions.
                 </p>
               </div>
             </div>
@@ -167,7 +194,7 @@ export default function About() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Design for Simplicity</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We design interfaces that are intuitive and easy to use. Every element serves a purpose, and we eliminate anything that doesn't add value to the user experience.
+                  We design interfaces that are intuitive and easy to use. Every element serves a purpose, and we eliminate anything that doesn&apos;t add value to the user experience.
                 </p>
               </div>
             </div>
@@ -191,7 +218,7 @@ export default function About() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Keep It Affordable</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  We believe great apps should be accessible to everyone. That's why we keep our prices low or offer free versions, ensuring that useful tools aren't locked behind expensive paywalls.
+                  We believe great apps should be accessible to everyone. That&apos;s why we keep our prices low or offer free versions, ensuring that useful tools aren&apos;t locked behind expensive paywalls.
                 </p>
               </div>
             </div>
@@ -206,7 +233,7 @@ export default function About() {
             Get in Touch
           </h2>
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Have questions, suggestions, or just want to say hello? We'd love to hear from you.
+            Have questions, suggestions, or just want to say hello? We&apos;d love to hear from you.
           </p>
           
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12 max-w-2xl mx-auto">
@@ -266,7 +293,7 @@ export default function About() {
                 <li><a href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">About</a></li>
                 <li><a href="/careers" className="text-gray-300 hover:text-white transition-colors duration-200">Careers</a></li>
                 <li><a href="/socials" className="text-gray-300 hover:text-white transition-colors duration-200">Socials</a></li>
-                <li><a href="mailto:Support@snumps.com" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><a href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
               </ul>
             </div>
 

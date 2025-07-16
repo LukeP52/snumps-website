@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function Home() {
 
   return (
@@ -205,7 +203,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Small Team</h3>
               <p className="text-gray-600">
-                We're a small company, not a big corporation, building apps that people love.
+                We&apos;re a small company, not a big corporation, building apps that people love.
               </p>
             </div>
           </div>
@@ -221,7 +219,7 @@ export default function Home() {
             Get in Touch
           </h2>
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Have questions, suggestions, or just want to say hello? We'd love to hear from you.
+            Have questions, suggestions, or just want to say hello? We&apos;d love to hear from you.
           </p>
           
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12 max-w-2xl mx-auto">

@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function Socials() {
   return (
     <div className="min-h-screen bg-white">
@@ -13,12 +15,12 @@ export default function Socials() {
               </div>
               <span className="text-xl font-semibold text-gray-900">Snumps</span>
             </div>
-            <a 
+            <Link 
               href="/"
               className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200"
             >
               Home
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -90,7 +92,7 @@ export default function Socials() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">More Platforms</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                We're expanding our social media presence. More platforms coming soon!
+                We&apos;re expanding our social media presence. More platforms coming soon!
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-gray-500">Stay tuned</span>
@@ -122,12 +124,12 @@ export default function Socials() {
             >
               Follow on X
             </a>
-            <a 
+            <Link 
               href="/#contact" 
               className="px-8 py-3 bg-gray-100 text-gray-700 font-semibold rounded-lg hover:bg-gray-200 transition-colors duration-200 inline-block"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -161,7 +163,7 @@ export default function Socials() {
                 <li><a href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">About</a></li>
                 <li><a href="/careers" className="text-gray-300 hover:text-white transition-colors duration-200">Careers</a></li>
                 <li><a href="/socials" className="text-gray-300 hover:text-white transition-colors duration-200">Socials</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><a href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
               </ul>
             </div>
 

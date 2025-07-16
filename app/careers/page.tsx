@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function Careers() {
   return (
     <div className="min-h-screen bg-white">
@@ -13,9 +15,12 @@ export default function Careers() {
               </div>
               <span className="text-xl font-semibold text-gray-900">Snumps</span>
             </div>
-            <a href="/" className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">
+            <Link 
+              href="/"
+              className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200"
+            >
               Home
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -29,16 +34,16 @@ export default function Careers() {
               Team
             </span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We're a small team building apps that make a real difference in people's lives.
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            We&apos;re looking for people who share our passion for building apps that make a difference.
           </p>
         </div>
       </section>
 
-      {/* Current Status Section */}
+      {/* Current Openings Section */}
       <section className="py-20 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-white rounded-2xl p-8 md:p-12 max-w-2xl mx-auto shadow-sm">
+          <div className="bg-white rounded-2xl p-8 md:p-12 max-w-2xl mx-auto">
             <div className="flex flex-col items-center space-y-6">
               <div className="w-16 h-16 bg-gray-100 rounded-2xl flex items-center justify-center">
                 <svg className="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +56,7 @@ export default function Careers() {
                   No Open Positions
                 </h2>
                 <p className="text-gray-600 max-w-md">
-                  We're not currently hiring, but we're always open to connecting with passionate developers and designers who share our values.
+                  We&apos;re not currently hiring, but we&apos;re always open to connecting with passionate developers and designers who share our values.
                 </p>
               </div>
             </div>
@@ -116,7 +121,7 @@ export default function Careers() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Fast Learners</h3>
               <p className="text-gray-600 leading-relaxed">
-                People who can adapt quickly, learn new technologies, and aren't afraid to try new approaches.
+                People who can adapt quickly, learn new technologies, and aren&apos;t afraid to try new approaches.
               </p>
             </div>
 
@@ -154,7 +159,7 @@ export default function Careers() {
             Interested in Joining Us?
           </h2>
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Even though we're not hiring right now, we'd love to hear from talented people who share our vision. Send us a message and we'll keep you in mind for future opportunities.
+            Even though we&apos;re not hiring right now, we&apos;d love to hear from talented people who share our vision. Send us a message and we&apos;ll keep you in mind for future opportunities.
           </p>
           
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12 max-w-2xl mx-auto">
@@ -178,7 +183,7 @@ export default function Careers() {
               </div>
               
               <p className="text-gray-600 max-w-md">
-                Include a brief introduction about yourself and what interests you about Snumps. We'll get back to you within 24 hours.
+                Include a brief introduction about yourself and what interests you about Snumps. We&apos;ll get back to you within 24 hours.
               </p>
             </div>
           </div>
@@ -214,7 +219,7 @@ export default function Careers() {
                 <li><a href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">About</a></li>
                 <li><a href="/careers" className="text-gray-300 hover:text-white transition-colors duration-200">Careers</a></li>
                 <li><a href="/socials" className="text-gray-300 hover:text-white transition-colors duration-200">Socials</a></li>
-                <li><a href="mailto:Support@snumps.com" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><a href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
               </ul>
             </div>
 
