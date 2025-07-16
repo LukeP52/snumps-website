@@ -219,7 +219,7 @@ export default function Careers() {
                 <li><a href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">About</a></li>
                 <li><a href="/careers" className="text-gray-300 hover:text-white transition-colors duration-200">Careers</a></li>
                 <li><a href="/socials" className="text-gray-300 hover:text-white transition-colors duration-200">Socials</a></li>
-                <li><a href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><Link href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</Link></li>
               </ul>
             </div>
 
