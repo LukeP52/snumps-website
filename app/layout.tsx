@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Snumps - Apps that feel like magic",
-  description: "We craft extraordinary mobile experiences that push the boundaries of what's possible. Premium app development company.",
+  title: "Snumps - Simple, Useful Mobile Apps Built for You",
+  description: "Snumps creates simple, useful, and affordable mobile apps that make your life easier. Small team, big impact. Coming soon: Blackjack Game, Points Tracker, and Compound Interest Calculator.",
 };
 
 export default function RootLayout({
