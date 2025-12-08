@@ -62,7 +62,7 @@ export default function Home() {
               Coming Soon
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Three revolutionary apps designed to simplify and enhance your daily life.
+              Four revolutionary apps designed to simplify and enhance your daily life.
             </p>
           </div>
 
@@ -139,11 +139,39 @@ export default function Home() {
                 <span className="inline-flex items-center px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
                   Coming 2025
                 </span>
-                <a 
-                  href="https://apps.apple.com/app/placeholder-compound-interest-calculator" 
-                  target="_blank" 
+                <a
+                  href="https://apps.apple.com/app/placeholder-compound-interest-calculator"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 text-sm font-medium"
+                >
+                  Download
+                </a>
+                </div>
+              </div>
+            </a>
+
+            {/* Weight Loss Assist App */}
+            <a href="/projects/weight-loss-assist" className="block">
+              <div className="bg-white rounded-xl p-8 shadow-md hover:shadow-lg hover:border-purple-200 border border-gray-100 transition-all duration-200 cursor-pointer">
+                <div className="w-14 h-14 bg-orange-100 rounded-lg mb-6 flex items-center justify-center">
+                <svg className="w-7 h-7 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Weight Loss Assist</h3>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                Set your weight loss goals, track your progress, and achieve lasting results.
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="inline-flex items-center px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                  Coming 2025
+                </span>
+                <a
+                  href="https://apps.apple.com/app/placeholder-weight-loss-assist"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors duration-200 text-sm font-medium"
                 >
                   Download
                 </a>
@@ -275,6 +303,7 @@ export default function Home() {
                 <li><a href="/projects/blackjack-game" className="text-gray-300 hover:text-white transition-colors duration-200">Blackjack Game</a></li>
                 <li><a href="/projects/points-tracker" className="text-gray-300 hover:text-white transition-colors duration-200">Points Tracker</a></li>
                 <li><a href="/projects/compound-interest-calculator" className="text-gray-300 hover:text-white transition-colors duration-200">Compound Interest Calculator</a></li>
+                <li><a href="/projects/weight-loss-assist" className="text-gray-300 hover:text-white transition-colors duration-200">Weight Loss Assist</a></li>
               </ul>
             </div>
 

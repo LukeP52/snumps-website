@@ -121,6 +121,7 @@ export default function CompoundInterestCalculatorPage() {
                 <li><a href="/projects/blackjack-game" className="text-gray-300 hover:text-white transition-colors duration-200">Blackjack Game</a></li>
                 <li><a href="/projects/points-tracker" className="text-gray-300 hover:text-white transition-colors duration-200">Points Tracker</a></li>
                 <li><a href="/projects/compound-interest-calculator" className="text-gray-300 hover:text-white transition-colors duration-200">Compound Interest Calculator</a></li>
+                <li><a href="/projects/weight-loss-assist" className="text-gray-300 hover:text-white transition-colors duration-200">Weight Loss Assist</a></li>
               </ul>
             </div>
 
