@@ -73,7 +73,7 @@ export default function WeightLossAssistPage() {
                   : 'text-gray-500 border-transparent hover:text-gray-700'
               }`}
             >
-              Terms and Conditions
+              Terms of Service
             </button>
           </div>
 
@@ -82,109 +82,254 @@ export default function WeightLossAssistPage() {
             {activeTab === 'privacy' ? (
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
-                <p className="text-gray-600 mb-6">Last updated: {new Date().toLocaleDateString()}</p>
+                <p className="text-gray-600 mb-6">Last Updated: December 7, 2025</p>
                 <div className="text-gray-600 space-y-4">
-                  <h3 className="font-semibold text-gray-900">Privacy Policy</h3>
-                  <p>This privacy policy applies to the Weight Loss Assist app (hereby referred to as &ldquo;Application&rdquo;) for mobile devices that was created by Snumps LLC (hereby referred to as &ldquo;Service Provider&rdquo;) as a Freemium service. This service is intended for use &ldquo;AS IS&rdquo;.</p>
+                  <p>Snumps LLC (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) operates the Weight Loss Assist mobile application (the &ldquo;App&rdquo;). This Privacy Policy explains how we collect, use, and protect your information when you use our App.</p>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Information Collection and Use</h4>
-                  <p>The Application collects information when you download and use it. This information may include information such as</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Information We Collect</h3>
+
+                  <h4 className="font-semibold text-gray-900 mt-4">Account Information</h4>
                   <ul className="list-disc pl-6 my-2">
-                    <li>Your device&apos;s Internet Protocol address (e.g. IP address)</li>
-                    <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-                    <li>The time spent on the Application</li>
-                    <li>The operating system you use on your mobile device</li>
+                    <li>Email address (when signing up with email)</li>
+                    <li>Apple ID identifier (when using Sign in with Apple)</li>
+                    <li>Authentication tokens for secure login</li>
                   </ul>
 
-                  <p>The Application does not gather precise information about the location of your mobile device.</p>
-
-                  <h4 className="font-semibold text-gray-900 mt-6">Health and Fitness Data</h4>
-                  <p>The Application may collect health and fitness information that you voluntarily provide, including but not limited to weight measurements, body measurements, fitness goals, and progress data. This information is stored locally on your device and is used solely to provide you with personalized weight loss tracking and goal-setting features. We do not share your health data with third parties for advertising or marketing purposes.</p>
-
-                  <p>The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.</p>
-
-                  <p>For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.</p>
-
-                  <h4 className="font-semibold text-gray-900 mt-6">Third Party Access</h4>
-                  <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.</p>
-
-                  <p>Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">Health and Fitness Data</h4>
                   <ul className="list-disc pl-6 my-2">
-                    <li>RevenueCat</li>
+                    <li>Weight measurements and tracking history</li>
+                    <li>Weight loss goals and progress</li>
+                    <li>Workout plans and exercise logs</li>
+                    <li>Nutrition and meal tracking data</li>
+                    <li>Daily goals and completion status</li>
+                    <li>Achievement and milestone data</li>
                   </ul>
 
-                  <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">Photos</h4>
                   <ul className="list-disc pl-6 my-2">
-                    <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-                    <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
-                    <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
+                    <li>Progress photos you choose to upload</li>
+                    <li>Photos are stored securely in the cloud and associated with your account</li>
                   </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Opt-Out Rights</h4>
-                  <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">Subscription Information</h4>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Purchase history and subscription status</li>
+                    <li>Transaction identifiers (processed by Apple and RevenueCat)</li>
+                  </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Data Retention Policy</h4>
-                  <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you&apos;d like them to delete User Provided Data that you have provided via the Application, please contact them at Support@snumps.com and they will respond in a reasonable time.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">How We Use Your Information</h3>
+                  <p>We use your information to:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Provide and maintain the App&apos;s functionality</li>
+                    <li>Sync your data across your devices</li>
+                    <li>Process and manage your subscription</li>
+                    <li>Track your weight loss progress and goals</li>
+                    <li>Send password reset emails (if requested)</li>
+                  </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Children</h4>
-                  <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Data Storage and Security</h3>
+                  <p>Your data is stored securely using:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Firebase Authentication - for secure account management</li>
+                    <li>Firebase Firestore - for storing your health and fitness data</li>
+                    <li>Firebase Storage - for storing your progress photos</li>
+                  </ul>
+                  <p>All data is transmitted using industry-standard encryption (TLS/SSL) and stored on secure servers.</p>
 
-                  <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (Support@snumps.com) so that they will be able to take the necessary actions.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Third-Party Services</h3>
+                  <p>We use the following third-party services to operate the App:</p>
+                  <div className="overflow-x-auto my-4">
+                    <table className="min-w-full border border-gray-200">
+                      <thead className="bg-gray-50">
+                        <tr>
+                          <th className="px-4 py-2 text-left text-sm font-semibold text-gray-900 border-b">Service</th>
+                          <th className="px-4 py-2 text-left text-sm font-semibold text-gray-900 border-b">Purpose</th>
+                          <th className="px-4 py-2 text-left text-sm font-semibold text-gray-900 border-b">Privacy Policy</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="px-4 py-2 border-b">Firebase (Google)</td>
+                          <td className="px-4 py-2 border-b">Authentication, database, storage, analytics</td>
+                          <td className="px-4 py-2 border-b"><a href="https://firebase.google.com/support/privacy" className="text-orange-600 hover:text-orange-700">Firebase Privacy</a></td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 border-b">RevenueCat</td>
+                          <td className="px-4 py-2 border-b">Subscription management</td>
+                          <td className="px-4 py-2 border-b"><a href="https://www.revenuecat.com/privacy" className="text-orange-600 hover:text-orange-700">RevenueCat Privacy</a></td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-2 border-b">Apple</td>
+                          <td className="px-4 py-2 border-b">Sign in with Apple, App Store purchases</td>
+                          <td className="px-4 py-2 border-b"><a href="https://www.apple.com/privacy/" className="text-orange-600 hover:text-orange-700">Apple Privacy</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p>We do not sell, rent, or share your personal data with any other third parties.</p>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Security</h4>
-                  <p>The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Data Retention and Deletion</h3>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Your data is retained as long as you maintain an active account</li>
+                    <li>When you delete your account, all your data is immediately and permanently deleted from our servers</li>
+                    <li>You can delete your account at any time from the Account settings within the App</li>
+                  </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Changes</h4>
-                  <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Children&apos;s Privacy</h3>
+                  <p>The App is rated 9+ and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at Support@snumps.com and we will delete such information.</p>
 
-                  <p>This privacy policy is effective as of 2025-01-01</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Your Rights</h3>
+                  <p>You have the right to:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Access your data through the App</li>
+                    <li>Export your data by contacting us</li>
+                    <li>Delete your account and all associated data at any time</li>
+                    <li>Update your information within the App</li>
+                  </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Your Consent</h4>
-                  <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Changes to This Policy</h3>
+                  <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App and updating the &ldquo;Last Updated&rdquo; date.</p>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Contact Us</h4>
-                  <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at Support@snumps.com.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">Contact Us</h3>
+                  <p>If you have questions about this Privacy Policy or your data, please contact us:</p>
+                  <p className="mt-2">Snumps LLC<br />Email: Support@snumps.com</p>
                 </div>
               </div>
             ) : (
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Terms and Conditions</h2>
-                <p className="text-gray-600 mb-6">Last updated: {new Date().toLocaleDateString()}</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Terms of Service</h2>
+                <p className="text-gray-600 mb-6">Last Updated: December 7, 2025</p>
                 <div className="text-gray-600 space-y-4">
-                  <h3 className="font-semibold text-gray-900">Terms & Conditions</h3>
-                  <p>These terms and conditions apply to the Weight Loss Assist app (hereby referred to as &ldquo;Application&rdquo;) for mobile devices that was created by Snumps LLC (hereby referred to as &ldquo;Service Provider&rdquo;) as a Freemium service.</p>
+                  <p>Welcome to Weight Loss Assist. These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the Weight Loss Assist mobile application (&ldquo;App&rdquo;) operated by Snumps LLC (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). By using the App, you agree to these Terms.</p>
 
-                  <p>Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">1. Acceptance of Terms</h3>
+                  <p>By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Health Disclaimer</h4>
-                  <p>The Application is designed to help you track your weight loss goals and progress. It is not intended to provide medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider before starting any weight loss program or making changes to your diet or exercise routine. The Service Provider is not responsible for any health decisions you make based on information provided by the Application.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">2. Eligibility</h3>
+                  <p>You must be at least 13 years old to use this App. If you are under 18, you must have permission from a parent or guardian.</p>
 
-                  <p>The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.</p>
-
-                  <p>The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone&apos;s security features, and may result in the Application not functioning correctly or at all.</p>
-
-                  <p>Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:</p>
-                  <ul className="list-disc pl-6">
-                    <li>RevenueCat</li>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">3. Account Registration</h3>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>You are responsible for maintaining the confidentiality of your account credentials</li>
+                    <li>You are responsible for all activities that occur under your account</li>
+                    <li>You agree to provide accurate and complete information when creating an account</li>
+                    <li>You may delete your account at any time through the App settings</li>
                   </ul>
 
-                  <p>Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">4. Subscription and Payments</h3>
 
-                  <p>If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider&apos;s agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">4.1 Premium Features</h4>
+                  <p>Some features require a paid subscription. Subscription options and pricing are displayed in the App.</p>
 
-                  <p>Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">4.2 Billing</h4>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Subscriptions are billed through Apple&apos;s App Store</li>
+                    <li>Payment will be charged to your Apple ID account at confirmation of purchase</li>
+                    <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period</li>
+                    <li>Your account will be charged for renewal within 24 hours prior to the end of the current period</li>
+                  </ul>
 
-                  <p>In terms of the Service Provider&apos;s responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">4.3 Cancellation</h4>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>You may cancel your subscription at any time through your Apple ID account settings</li>
+                    <li>Cancellation takes effect at the end of the current billing period</li>
+                    <li>No refunds are provided for partial subscription periods</li>
+                  </ul>
 
-                  <p>The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.</p>
+                  <h4 className="font-semibold text-gray-900 mt-4">4.4 Price Changes</h4>
+                  <p>We reserve the right to change subscription prices. Any price changes will apply to subsequent billing periods after notice.</p>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Changes to These Terms and Conditions</h4>
-                  <p>The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">5. Acceptable Use</h3>
+                  <p>You agree NOT to:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Use the App for any unlawful purpose</li>
+                    <li>Attempt to gain unauthorized access to the App or its systems</li>
+                    <li>Interfere with or disrupt the App&apos;s functionality</li>
+                    <li>Upload malicious code or content</li>
+                    <li>Impersonate any person or entity</li>
+                    <li>Use the App to harass, abuse, or harm others</li>
+                  </ul>
 
-                  <p>These terms and conditions are effective as of 2025-01-01</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">6. Health Disclaimer</h3>
+                  <p className="font-semibold">IMPORTANT: The App is for informational and tracking purposes only.</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>The App is NOT a substitute for professional medical advice, diagnosis, or treatment</li>
+                    <li>Always consult a qualified healthcare provider before starting any weight loss program</li>
+                    <li>We do not provide medical advice or recommendations</li>
+                    <li>You use any information from the App at your own risk</li>
+                    <li>If you have any health concerns, consult a physician before making dietary or exercise changes</li>
+                    <li>Stop using the App and seek medical attention if you experience any adverse health effects</li>
+                  </ul>
 
-                  <h4 className="font-semibold text-gray-900 mt-6">Contact Us</h4>
-                  <p>If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at Support@snumps.com.</p>
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">7. User Content</h3>
+
+                  <h4 className="font-semibold text-gray-900 mt-4">7.1 Your Data</h4>
+                  <p>You retain ownership of all data you enter into the App (weight entries, goals, photos, etc.).</p>
+
+                  <h4 className="font-semibold text-gray-900 mt-4">7.2 License to Us</h4>
+                  <p>By using the App, you grant us a limited license to store, process, and display your data solely for the purpose of providing the App&apos;s services to you.</p>
+
+                  <h4 className="font-semibold text-gray-900 mt-4">7.3 Responsibility</h4>
+                  <p>You are solely responsible for the content you upload, including progress photos.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">8. Intellectual Property</h3>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>The App, including its design, features, and content, is owned by Snumps LLC</li>
+                    <li>You may not copy, modify, distribute, or reverse engineer any part of the App</li>
+                    <li>&ldquo;Weight Loss Assist&rdquo; and associated logos are trademarks of Snumps LLC</li>
+                  </ul>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">9. Privacy</h3>
+                  <p>Your use of the App is also governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">10. Disclaimers</h3>
+                  <p>THE APP IS PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Merchantability or fitness for a particular purpose</li>
+                    <li>Accuracy or reliability of any information</li>
+                    <li>Uninterrupted or error-free operation</li>
+                    <li>Results from using the App</li>
+                  </ul>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">11. Limitation of Liability</h3>
+                  <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, SNUMPS LLC SHALL NOT BE LIABLE FOR:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Any indirect, incidental, special, consequential, or punitive damages</li>
+                    <li>Any loss of data, profits, or business opportunities</li>
+                    <li>Any damages arising from your use or inability to use the App</li>
+                  </ul>
+                  <p>Our total liability shall not exceed the amount you paid for the App in the 12 months preceding the claim.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">12. Indemnification</h3>
+                  <p>You agree to indemnify and hold harmless Snumps LLC from any claims, damages, or expenses arising from:</p>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>Your use of the App</li>
+                    <li>Your violation of these Terms</li>
+                    <li>Your violation of any third-party rights</li>
+                  </ul>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">13. Termination</h3>
+                  <ul className="list-disc pl-6 my-2">
+                    <li>We may suspend or terminate your access to the App at any time for violation of these Terms</li>
+                    <li>You may stop using the App and delete your account at any time</li>
+                    <li>Upon termination, your right to use the App ceases immediately</li>
+                  </ul>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">14. Changes to Terms</h3>
+                  <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the new Terms. We will notify you of material changes through the App.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">15. Governing Law</h3>
+                  <p>These Terms are governed by the laws of the United States. Any disputes shall be resolved in the courts of competent jurisdiction.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">16. Severability</h3>
+                  <p>If any provision of these Terms is found unenforceable, the remaining provisions will continue in effect.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">17. Entire Agreement</h3>
+                  <p>These Terms, along with our Privacy Policy, constitute the entire agreement between you and Snumps LLC regarding the App.</p>
+
+                  <h3 className="font-semibold text-gray-900 text-lg mt-6">18. Contact Us</h3>
+                  <p>If you have questions about these Terms, please contact us:</p>
+                  <p className="mt-2">Snumps LLC<br />Email: Support@snumps.com</p>
                 </div>
               </div>
             )}
